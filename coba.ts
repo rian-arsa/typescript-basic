@@ -1,5 +1,5 @@
-function hello(name: string) {
+function helloRian(name: string) {
   console.log(`Hello ${name}`);
 }
 
-hello("Rian");
+helloRian("Rian");

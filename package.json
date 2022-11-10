@@ -1,0 +1,20 @@
+{
+  "name": "coba",
+  "version": "1.0.0",
+  "description": "Belajar basic Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node function.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rian-arsa/typescript-basic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rian-arsa/typescript-basic/issues"
+  },
+  "homepage": "https://github.com/rian-arsa/typescript-basic#readme"
+}
