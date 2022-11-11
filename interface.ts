@@ -4,8 +4,8 @@ interface Laptop {
   off(): void;
 }
 
-// wajib mengimplementasikan apapun property / method yng ada di interface
-class Asus implements Laptop {
+// wajib mengimplementasikan apapun property / method yng ada
+class Asuss implements Laptop {
   name: string;
   isGaming: boolean;
 
@@ -23,6 +23,6 @@ class Asus implements Laptop {
   }
 }
 
-const Z1 = new Asus("Z1 pro", true);
-Z1.on();
-Z1.off();
+const Z12 = new Asuss("Z1 pro", true);
+Z12.on();
+Z12.off();

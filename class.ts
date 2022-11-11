@@ -2,7 +2,7 @@
 // protected = hanya bisa diakses dari class tersebut dan turunannya
 // private = hanya bisa diakses oleh class itu sendiri
 
-class User {
+class User1 {
   private name: string;
 
   constructor(name: string, private age: number) {
@@ -18,11 +18,11 @@ class User {
   }
 }
 
-const user = new User("Rian", 20);
+const user1 = new User1("Rian", 20);
 // console.log(user.getName());
 
 // extends untuk menjadi children
-class Admin extends User {
+class Admin extends User1 {
   read: boolean = true;
   write: boolean = true;
   private _phone: string;
@@ -56,5 +56,5 @@ class Admin extends User {
 // adminBaru.email = "rianarsa48@gmail.com";
 // console.log(adminBaru.email);
 
-const role = Admin.getRoleAdmin();
-console.log(role);
+const roles = Admin.getRoleAdmin();
+console.log(roles);

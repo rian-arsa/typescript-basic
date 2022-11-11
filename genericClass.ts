@@ -25,7 +25,7 @@ class List<T> {
 // console.log(dataList.getAll());
 
 // Multiple Type
-const dataList = new List<number | string>();
-dataList.add(1);
-dataList.addMultiple("2", 3, "4");
-console.log(dataList.getAll());
+const listData = new List<number | string>();
+listData.add(1);
+listData.addMultiple("2", 3, "4");
+console.log(listData.getAll());
